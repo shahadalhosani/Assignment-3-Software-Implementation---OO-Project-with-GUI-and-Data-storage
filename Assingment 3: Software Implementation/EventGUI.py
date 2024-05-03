@@ -243,7 +243,7 @@ class EventGUI:  # create a GUI class for the event
             # Check if the selected event ID exists
             if event_id in all_events:
                 event = all_events[event_id]
-                # create an aggregation - adding guests associated with an event
+                # create a composition - adding guests associated with an event
                 event.add_guests(2, "Khalid", "Mushrif St", 559384500, "VIP")
 
                 # Write updated data to file
